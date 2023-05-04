@@ -1,10 +1,27 @@
-<!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+  <meta charSet="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="app/style.css">
+  <style>
+    img {
+      display: block;
+      margin: 20px auto;
+      max-width: 50%;
+      height: auto;
+    }
+  </style>
 </head>
+
 <body>
-$END$
+
+<section>
+  <input type="text" id="page-input" placeholder="Номер страницы (1-10)">
+  <input type="text" id="limit-input" placeholder="Лимит (1-10)">
+  <button id="load-btn">Загрузить</button>
+  <div id="image-container"></div>
+</section>
 </body>
+<script src = "app/script.js"></script>
 </html>
